@@ -3,10 +3,8 @@ import pygame
 import os
 import time
 
-# Initialize pygame
 pygame.init()
 
-# Constants
 GRID_SIZE = 6
 CELL_SIZE = 75
 PADDING = 10
@@ -24,8 +22,7 @@ BLUE = (0, 0, 255)
 GREEN = (0, 200, 0)
 GRAY = (180, 180, 180)
 
-# Load images
-ASSET_PATH = "E:/AI/Game/tango_chat/images/"
+ASSET_PATH = "/Users/mgrsuraz/Downloads/Tango/images/"
 sun_img = pygame.image.load(os.path.join(ASSET_PATH, "sun.png"))
 moon_img = pygame.image.load(os.path.join(ASSET_PATH, "moon.png"))
 undo_img = pygame.image.load(os.path.join(ASSET_PATH, "undo.png"))
